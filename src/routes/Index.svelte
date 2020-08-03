@@ -8,7 +8,7 @@
   main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 2fr 3fr;
+    grid-template-rows: 1fr 3fr;
     align-items: center;
     font-family: "Poppins", Sans-Serif;
     grid-template-areas:
@@ -19,21 +19,15 @@
   h1 {
     font-family: "Abril Fatface", Cursive;
   }
-  .list {
-    display: flex;
-    justify-content: space-between;
-    grid-area: links;
-    width: 100%;
-  }
-  li {
-    list-style-type: none;
-  }
   .header {
     grid-area: header;
     line-height: 3rem;
     font-family: "Abril Fatface", Cursive;
   }
-  .contact {
+  @media only screen and (min-width: 600px) {
+    main {
+      grid-template-rows: 2fr 3fr;
+    }
   }
 </style>
 
