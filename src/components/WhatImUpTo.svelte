@@ -1,4 +1,7 @@
 <style>
+  h2 {
+    margin-bottom: 4rem;
+  }
   .what-im-upto {
     grid-area: stuff;
   }
@@ -6,7 +9,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 1rem;
-    margin: 3rem 0rem;
+    margin-bottom: 4rem;
     grid-template-areas: "image image" "text text";
     grid-column-gap: 1rem;
     box-shadow: 0px 0px 12px 1px rgba(229, 229, 229, 0.64);

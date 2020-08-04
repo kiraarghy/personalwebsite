@@ -10,7 +10,6 @@
   main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr 3fr;
     align-items: center;
     font-family: "Poppins", Sans-Serif;
     grid-template-areas:
