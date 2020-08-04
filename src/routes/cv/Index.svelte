@@ -79,5 +79,5 @@
   <div>
     {@html QUERYRES.cv.html}
   </div>
-  <Footer />
 </Layout>
+<Footer />
