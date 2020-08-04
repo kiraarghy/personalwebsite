@@ -31,7 +31,9 @@
 
 <section class="what-im-upto">
   <h2>What I've been up to:</h2>
-  <a href="https://codepen.io/collection/AZvEzJ">
+  <a
+    href="https://codepen.io/collection/AZvEzJ"
+    aria-label="Look at my game disc beauty project.">
     <article class="what-ive-done ">
       <div class="what-ive-done-image">
         <p
@@ -71,10 +73,10 @@
       </div>
     </article>
   </a>
-  <a href="https://www.runpkg.com/">
+  <a href="https://www.runpkg.com/" aria-label="Look at the runpkg project.">
     <article class="what-ive-done ">
       <img
-        src="/rpkg-fs8.png"
+        src="/rpkg-fs8.jpg"
         class=" what-ive-done-image"
         alt="View of the runpkg webapp" />
       <div class="what-ive-done-text">
