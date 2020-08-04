@@ -9,10 +9,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 1rem;
-    margin-bottom: 4rem;
     grid-template-areas: "image image" "text text";
     grid-column-gap: 1rem;
-    box-shadow: 0px 0px 12px 1px rgba(229, 229, 229, 0.64);
   }
   .what-ive-done-text {
     grid-area: text;
@@ -21,6 +19,8 @@
   }
   a {
     text-decoration: none;
+    margin-bottom: 4rem;
+    display: block;
   }
   .what-ive-done-image {
     justify-self: center;
@@ -31,6 +31,7 @@
   @media only screen and (min-width: 620px) {
     .what-ive-done {
       grid-template-areas: "image text";
+      box-shadow: 0px 0px 12px 1px rgba(229, 229, 229, 0.84);
     }
   }
 </style>
