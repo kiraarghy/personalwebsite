@@ -16,6 +16,9 @@
     color: black;
     text-decoration: none;
   }
+  a {
+    text-decoration: none;
+  }
   .what-ive-done-image {
     justify-self: center;
     grid-area: image;
