@@ -2,6 +2,8 @@
   import Nav from "../components/Nav.svelte";
   import WhatImUpTo from "../components/WhatImUpTo.svelte";
   import Layout from "../components/Layout.svelte";
+  import Footer from "../components/Footer.svelte";
+  import Interested from "../components/Interested.svelte";
 </script>
 
 <style type="text/scss">
@@ -14,6 +16,7 @@
     grid-template-areas:
       "header header header header"
       "stuff stuff stuff stuff"
+      "interested interested interested interested"
       "footer footer footer footer";
   }
   h1 {
@@ -26,7 +29,7 @@
   }
   @media only screen and (min-width: 600px) {
     main {
-      grid-template-rows: 2fr 3fr;
+      grid-template-rows: 2fr 3fr 0.5fr;
     }
   }
 </style>
@@ -45,5 +48,7 @@
       </h1>
     </header>
     <WhatImUpTo />
+    <Interested />
   </main>
 </Layout>
+<Footer />

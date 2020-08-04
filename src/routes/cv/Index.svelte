@@ -10,6 +10,7 @@
   const QUERYRES = {};
   import Nav from "../../components/Nav.svelte";
   import Layout from "../../components/Layout.svelte";
+  import Footer from "../../components/Footer.svelte";
 </script>
 
 <style>
