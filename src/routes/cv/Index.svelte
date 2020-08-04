@@ -69,6 +69,9 @@
   .content :global(li) {
     margin: 0 0 0.5em 0;
   }
+  .html {
+    margin-bottom: 4rem;
+  }
 </style>
 
 <svelte:head>
@@ -76,7 +79,7 @@
 </svelte:head>
 <Layout>
   <Nav />
-  <div>
+  <div class="html">
     {@html QUERYRES.cv.html}
   </div>
 </Layout>
