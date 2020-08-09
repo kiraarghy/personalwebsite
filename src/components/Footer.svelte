@@ -1,8 +1,10 @@
 <style type="text/scss">
   footer {
+    position: absolute;
+    bottom: 0;
     background-color: #f6f4f4;
     width: 100%;
-    height: 10vh;
+    height: 80px;
     display: flex;
     justify-content: flex-end;
     align-items: center;

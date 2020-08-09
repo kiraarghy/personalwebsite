@@ -11,5 +11,5 @@
 
 <section>
   <h2>Interested...?</h2>
-  <a href="/cv">Check out my CV</a>
+  <a href="/cv">check out my CV</a>
 </section>

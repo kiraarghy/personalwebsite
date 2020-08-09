@@ -1,11 +1,11 @@
 <script>
   const QUERY = `
     query {
-      cv(slug: "cv") {
-        slug
-        html
-      }
-    }
+     		cv(title: "cv") {
+				title
+				html
+			}
+		}
   `;
   const QUERYRES = {};
   import Nav from "../../components/Nav.svelte";
