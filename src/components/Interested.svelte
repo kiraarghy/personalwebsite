@@ -5,7 +5,7 @@
 <style type="text/scss">
   section {
     grid-area: interested;
-    padding-bottom: 4rem;
+    padding-bottom: 8rem;
   }
 </style>
 
