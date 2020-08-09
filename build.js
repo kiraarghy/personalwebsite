@@ -6,7 +6,7 @@ const {
   readRoutes,
 } = require("junglejs");
 
-const jungleConfig = require("./jungle.config");
+const getJungleConfig = require("./jungle.config");
 
 const app = express();
 
